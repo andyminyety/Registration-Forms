@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MAP - REGISTRO</title>
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Datos Personales</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Cédula</span>
+            <input type="text" placeholder="Introduzca su cédula" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Fotocopia de la cédula</span>
+            <input type="file" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Nombre</span>
+            <input type="text" placeholder="Introduzca su nombre" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Apellido</span>
+            <input type="text" placeholder="Introduzca su apellido" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Género</span>
+            <select name="gender" id="gender-select" required>
+              <option value="">Eliga una opción</option>
+              <option value="male">Masculino</option>
+              <option value="female">Femenino</option>
+              <option value="not-say">Prefiero no decirlo</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <span class="details">Fecha de nacimiento</span>
+            <input type="date" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Nacionalidad</span>
+            <input type="text" placeholder="Introduzca su nacionalidad" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Provincia</span>
+            <select name="provincia" id="provincia-select" required>
+              <option value="">Seleccione una provincia</option>
+              <option value="azua">Azua</option>
+              <option value="bahoruco">Bahoruco</option>
+              <option value="barahona">Barahona</option>
+              <option value="dajabon">Dajabón</option>
+              <option value="distritonacional">Distrito Nacional</option>
+              <option value="duarte">Duarte</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <span class="details">Municipio</span>
+            <select name="municipio" id="municipio-select" required>
+              <option value="">Seleccione un municipio</option>
+              <option value="altamira">Altamira</option>
+              <option value="matanzas">Matanzas</option>
+              <option value="esperanza">Esperanza</option>
+              <option value="hondovalle">Hondo Valle</option>
+              <option value="distritonacional">Distrito Nacional</option>
+              <option value="piedrablanca">Piedra Blanca</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <span class="details">Dirección</span>
+            <textarea id="direccion" name="direccion" placeholder="Introduzca su dirección" required></textarea>
+          </div>
+          <div class="input-box">
+            <span class="details">Teléfono</span>
+            <input type="text" placeholder="Introduzca su teléfono" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Celular</span>
+            <input type="text" placeholder="Introduzca su celular" required>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Registrarse">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
